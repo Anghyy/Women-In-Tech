@@ -1,0 +1,21 @@
+@use '../custom' as *;
+
+.nav-menu {
+    background-color: $dark-green;
+   
+
+    img{
+        width: 12.5rem;
+        padding-bottom: 5px;
+    }
+
+    li {
+        color: $white;
+    }
+
+    @include media-breakpoint-down(lg) {
+        .social {
+          display: none;
+        }
+    }
+}
