@@ -11123,7 +11123,8 @@ textarea.form-control-lg {
   background-color: #2A2B2A;
 }
 .nav-menu img {
-  width: 12.5rem;
+  width: 100%;
+  height: auto;
   padding-bottom: 5px;
 }
 .nav-menu li {
@@ -11133,6 +11134,45 @@ textarea.form-control-lg {
   .nav-menu .social {
     display: none;
   }
+}
+
+section {
+  padding: 5rem;
+}
+
+.btn-rounded {
+  width: 145px;
+  height: 45px;
+  font-size: 23px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #e5446d;
+  font-weight: 700;
+  position: relative;
+  transition: all 0.5s;
+  z-index: 1;
+}
+.btn-rounded::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #e5446d;
+  z-index: -1;
+  transition: all 0.5s;
+}
+.btn-rounded:hover::before {
+  width: 100%;
+}
+.btn-rounded:hover {
+  color: #ffffff;
+}
+.btn-rounded:active:before {
+  background: #f8f4e3;
 }
 
 /*# sourceMappingURL=style.css.map */
