@@ -11181,4 +11181,10 @@ textarea.form-control-lg {
   background: #f8f4e3;
 }
 
+.btn-blog {
+  width: 145px;
+  height: 45px;
+  font-size: 23px;
+}
+
 /*# sourceMappingURL=style.css.map */
