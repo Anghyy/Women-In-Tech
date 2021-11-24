@@ -11136,6 +11136,11 @@ textarea.form-control-lg {
   }
 }
 
+.hero {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
 @media (min-width: 576px) {
   .newsletter {
     width: 60%;
@@ -11148,6 +11153,7 @@ textarea.form-control-lg {
 
 .mission {
   margin-top: 7rem;
+  margin-bottom: 7rem;
 }
 
 .btn-rounded {
