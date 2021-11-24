@@ -11142,8 +11142,16 @@ textarea.form-control-lg {
   }
 }
 
+.blog {
+  margin-top: 7rem;
+}
+
+.mission {
+  margin-top: 7rem;
+}
+
 .btn-rounded {
-  width: 145px;
+  width: 150px;
   height: 45px;
   font-size: 23px;
   cursor: pointer;
