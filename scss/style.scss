@@ -11,3 +11,12 @@
 //import components
 @use 'components/typography';
 @use 'components/buttons';
+
+
+body {
+    background-image: url("/images/hero1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}

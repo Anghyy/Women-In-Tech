@@ -1,17 +1,23 @@
 @use '../custom' as *;
 
 .nav-menu {
-    background-color: $dark-green;
-   
+   background-color: rgba(255,255,255,0.8);
 
-    img{
-        width: 100%;
-        height: auto;
-        padding-bottom: 5px;
-    }
+    
+    .nav-item {
+        color: $dark-green;
 
-    li {
-        color: $white;
+        :hover{
+            color: $warning;
+        }
+
+        .nav-link active{
+            color: $warning;
+        }
+        .nav-link:hover {
+            color: $warning;
+        }
+
     }
 
     @include media-breakpoint-down(lg) {
