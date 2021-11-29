@@ -1,7 +1,54 @@
 @use '../custom' as *;
 
-
 .hero {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    height: calc(100% - 248px);
+
+    @include media-breakpoint-down(xl) { 
+        .container-box {
+            background-color: rgba(255,255,255,0.5);
+        }
+    }
+
+    @include media-breakpoint-down(xl) {
+        .btn-cta {
+            width: 160px;
+            height: 45px;
+            font-size: 23px;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            background: transparent;
+            color: $dark-green;
+            font-weight: 700;
+            position: relative;
+            transition: all 0.5s;
+            z-index: 1;
+        
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 5px;
+                height: 100%;
+                background-color: $dark-green;
+                z-index: -1;
+                transition: all 0.5s;
+            }
+        
+            &:hover::before {
+                width: 100%;
+            }
+        
+            &:hover {
+                color: $white;
+            }
+        
+            &:active:before {
+                background: $eggshell;
+            }
+        
+        }
+    }
 }
+
