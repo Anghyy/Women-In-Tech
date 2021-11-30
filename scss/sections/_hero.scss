@@ -1,7 +1,7 @@
 @use '../custom' as *;
 
 .hero {
-    height: calc(100% - 248px);
+    height: calc(100% - 252px);
 
     @include media-breakpoint-down(xl) { 
         .container-box {

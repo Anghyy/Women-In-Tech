@@ -1,5 +1,12 @@
 @use '../custom' as *;
 
 .mission {
-    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .custom-card {
+        border: 1px solid #fff;
+        border-radius: 15px;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);      
+    }
 }

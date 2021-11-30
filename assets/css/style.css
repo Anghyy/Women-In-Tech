@@ -11118,6 +11118,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-image: url("/images/hero1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e3e3e3;
+  height: 100vh;
+  width: 100vw;
+}
+
 .nav-menu {
   background-color: rgba(255, 255, 255, 0.8);
 }
@@ -11140,7 +11149,7 @@ textarea.form-control-lg {
 }
 
 .hero {
-  height: calc(100% - 248px);
+  height: calc(100% - 252px);
 }
 @media (max-width: 1199.98px) {
   .hero .container-box {
@@ -11199,7 +11208,13 @@ textarea.form-control-lg {
 }
 
 .mission {
-  margin-top: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.mission .custom-card {
+  border: 1px solid #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
 }
 
 .btn-cta {
@@ -11241,14 +11256,6 @@ textarea.form-control-lg {
   width: 145px;
   height: 45px;
   font-size: 23px;
-}
-
-body {
-  background-image: url("/images/hero1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
 }
 
 /*# sourceMappingURL=style.css.map */
