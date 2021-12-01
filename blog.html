@@ -21,7 +21,7 @@
 
 </head>
 
-<body class="body-glog">
+<body class="body-blog">
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light nav-menu p-5 sticky-top">
         <div class="container">
@@ -37,13 +37,13 @@
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                        <a class="nav-link" href="index.html">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#mission">Notre Mission</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="blog.html">Blog</a>
+                        <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#agenda">Agenda</a>
@@ -83,115 +83,671 @@
         </div>
     </nav>
 
-    <main>
+    <main class="container">
 
+        <!--hero-->
+        <div class="p-5 text-light rounded blog-hero">
+            <div class="col-md-6 px-0">
+                <h1 class="text-md-start text-center display-3 text-light fw-bold">Elles partagent leurs
+                    expériences.</h1>
+            </div>
+        </div>
+
+        <!--Blog-->
+        <section class="row my-5 ">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border overflow-hidden flex-md-row mb-5 shadow-sm h-md-250 position-relative top-cards bg-white">
+                    <div class="col p-5 d-flex flex-column position-static ">
+                        <strong class="d-inline-block mb-2 text-primary text-md-start text-center">Coup de
+                            coeur</strong>
+                        <h2 class="mb-2 text-warning text-md-start text-center">Hacktoberfest 2021</h2>
+                        <div class="mb-1 text-muted text-md-start text-center">Cette année Women in tech s’est lancée un
+                            nouveau défi : travailler
+                            sur
+                            la présence des femmes dans l’Open Source à travers une participation à Jenkins à l’occasion
+                            de l’événement annuel Hacktoberfest.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border overflow-hidden flex-md-row mb-5 shadow-sm h-md-250 position-relative top-cards bg-white">
+                    <div class="col p-5 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary text-md-start text-center">Evènement</strong>
+                        <h2 class="mb-2 text-warning text-md-start text-center">SteamDecks</h2>
+                        <div class="mb-1 text-muted text-md-start text-center">Depuis deux ans, women in tech participe
+                            à un projet éducatif
+                            européen, en collaboration avec des professeurs d’écoles d’Espagne, d’Allemagne et de
+                            Roumanie, en tant que partenaire, sur un projet nommé STEAM Decks.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--posts-->
+        <section class="row g-5">
+
+            <div class="col-lg-8">
+
+                <!--Article 1-->
+                <article>
+                    <div
+                        class="row g-0 border overflow-hidden flex-md-row mb-5 shadow-sm h-md-250 position-relative bg-white blog-post">
+                        <div class="col-lg-4 p-5 d-flex flex-column position-static">
+                            <img src="/images/Catherine-gilles.svg" class="img-fluid mx-auto blog-post-img"
+                                alt="portrait d'une femme blonde">
+                            <div class="blog-post-icons mx-auto">
+                                <div class="d-flex ">
+                                    <span class="px-2 text-warning"><i class="fas fa-calendar-alt"></i></span>
+                                    <p class="text-muted fs-6 pe-4">01/10/2021</p>
+                                </div>
+                                <div class="d-flex mx-auto">
+                                    <span class="px-2 text-warning "><i class="fas fa-eye"></i></span>
+                                    <p class="text-muted fs-6 pe-4">256</p>
+                                </div>
+                                <div class="d-flex mx-auto">
+                                    <span class="px-2 text-warning"><i class="fas fa-clock"></i></span>
+                                    <p class="text-muted fs-6 pe-4">4 min</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-8 px-2">
+                            <h2 class="m-3 text-warning text-md-start text-center">Catherine Gilles, Software Engineer
+                                chez Microsoft
+                                France</h2>
+                            <div class="m-3 text-md-start text-center">
+                                <p>Catherine a récemment intégré une équipe d’engineering voisine de la mienne chez
+                                    Microsoft.
+                                </p>
+                                <p>Elle travaille avec une majorité de mes anciens collègues et c’est ainsi que j’ai
+                                    fait sa connaissance. En plus d’être la
+                                    seule femme de l’équipe basée en France, elle est aussi un des rares profils junior
+                                    !
+                                </p>
+                                <p>A travers ces quelques lignes, elle partage avec nous son regard sur son quotidien
+                                    tech.…
+                                </p>
+                            </div>
+
+
+
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed text-warning" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Lire la suite
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <h3>Bonjour Catherine, peux-tu te présenter ?</h3>
+                                            <p>
+                                                Je m’appelle Catherine, j’ai 23 ans, j’habite à Paris, et cela fait tout
+                                                juste 1 an que j’ai rejoins la division CSE (Commercial Software
+                                                Engineering) de Microsoft en tant que Software Engineer. Avant ça,
+                                                j’étais stagiaire chez Microsoft France : j’ai fini mes études l’année
+                                                dernière et c’est donc mon premier emploi 😊
+                                            </p>
+                                            <hr>
+                                            <h3>Comment as-tu été recrutée ?</h3>
+                                            <p>Comme j’étais en stage dans l’entreprise, c’était sans doute un peu plus
+                                                facile pour moi : une collègue de mon ancienne équipe m’a présentée
+                                                plusieurs connaissances à elle chez MS pour qu’ils me parlent de ce
+                                                qu’ils faisaient et que j’aie une meilleure idée du job vers lequel
+                                                m’orienter après mon stage.
+                                            </p>
+                                            <p>
+                                                Lors d’une discussion avec une personne de
+                                                mon équipe actuelle (merci Julien), je me suis dit que c’était
+                                                exactement son travail que je voulais faire, et par chance son manager
+                                                venait d’ouvrir un poste. J’ai donc pris contact avec celui-ci qui m’a
+                                                fait passer un premier entretien informel pour voir si mon profil
+                                                correspondait au rôle, puis j’ai passé 2 entretiens techniques pour
+                                                tester mes compétences en programmation et un entretien final plus
+                                                général avec le chef de la division.
+                                            </p>
+                                            <hr>
+                                            <h3>Une journée type ?</h3>
+                                            <p>Il n’y en a pas ! Je suis très souvent en déplacement car mon équipe est
+                                                internationale et on peut donc être amenés à travailler sur des projets
+                                                ou participer à des événements à l’étranger. C’est d’ailleurs un super
+                                                avantage pour une jeune comme moi parce que ça me donne l’occasion de
+                                                voir du pays.
+                                            </p>
+                                            <p>
+                                                Ce qui est vraiment génial dans tout ça, c’est que c’est moi qui
+                                                organise mon temps comme je veux : je peux participer aux projets et
+                                                événements qui m’intéressent, et je suis maître de ma formation. Je
+                                                viens au bureau assez souvent pour voir quelques têtes mais mon équipe
+                                                étant internationale, on travaille toujours à distance donc je peux tout
+                                                aussi bien travailler de chez moi.
+                                            </p>
+                                            <hr>
+                                            <h3>Quelles sont tes aspirations pour les mois/années à venir ?</h3>
+                                            <p>Pour l’instant, je me vois rester dans mon poste actuel parce que ce que
+                                                je fais est tellement varié que je ne suis pas prête de m’ennuyer. Et
+                                                après ça, je me vois bien m’orienter vers la recherche en IA, pas en
+                                                tant que chercheuse mais en tant que développeuse qui transforme les
+                                                résultats de la recherche en quelque chose d’utilisable par n’importe
+                                                qui. Quoiqu’il en soit, je suis sûre que je trouverai quelque chose
+                                                d’intéressant !
+                                            </p>
+                                            <hr>
+                                            <h3 class="text-warning">Laissez un commentaire</h3>
+                                            <p class="text-muted">Votre adresse e-mail ne sera pas publiée. Les champs
+                                                obligatoires sont indiqués avec *</p>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                    rows="3"></textarea>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label"></label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                    placeholder="nom@example.com">
+                                            </div>
+                                            <button type="submit" class="btn btn-warning mb-3 text-light">Poster un
+                                                commentaire</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="m-3 text-muted text-md-start text-center">Par Angélique Pinot</p>
+                            </div>
+
+                        </div>
+                </article>
+
+                <!--Article 2-->
+                <article>
+                    <div
+                        class="row g-0 border overflow-hidden flex-md-row mb-5 shadow-sm h-md-250 position-relative bg-white blog-post">
+                        <div class="col p-5 d-flex flex-column position-static">
+                            <img src="/images/aurelie-minier.svg" class="img-fluid mx-auto blog-post-img"
+                                alt="portrait d'une femme blonde">
+                            <div class="blog-post-icons mx-auto">
+                                <div class="d-flex ">
+                                    <span class="px-2 text-warning"><i class="fas fa-calendar-alt"></i></span>
+                                    <p class="text-muted fs-6 pe-4">17/10/2021</p>
+                                </div>
+                                <div class="d-flex mx-auto">
+                                    <span class="px-2 text-warning "><i class="fas fa-eye"></i></span>
+                                    <p class="text-muted fs-6 pe-4">165</p>
+                                </div>
+                                <div class="d-flex mx-auto">
+                                    <span class="px-2 text-warning"><i class="fas fa-clock"></i></span>
+                                    <p class="text-muted fs-6 pe-4">4 min</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-8 px-2">
+                            <h2 class="m-3 text-warning text-md-start text-center">Aurélie Minier, Dev Freelance</h2>
+                            <div class="m-3 text-md-start text-center">
+                                <p>Aurélie Minier, Auri pour les intimes, est une développeuse que j’ai rencontré à
+                                    Sopra
+                                    Madrid lors de notre premier jour de travail le 16 Mars 2006.
+                                </p>
+                                <p>Cela fait 10 ans maintenant que nous sommes en France. Après quelques années comme
+                                    développeuse, elle est passée cheffe de projet pour redevenir développeuse quelques
+                                    années plus tard !
+                                </p>
+                                <p>Parcours typique et atypique en même temps pour une développeuse
+                                    senior java freelance, elle nous a accordé un peu de son temps pour répondre à
+                                    quelques questions.
+                                </p>
+                            </div>
+
+
+
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed text-warning" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                            aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Lire la suite
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <h3>Bonjour Auri, peux tu te presenter en une phrase ?</h3>
+                                            <p>
+                                                Bonjour, je suis une développeuse freelance avec 13 ans d’expérience,
+                                                plutôt orientée backend java.
+                                            </p>
+                                            <hr>
+                                            <h3>Comment es-tu tombée dans le code ?</h3>
+                                            <p>J’ai fait une école d’ingénieur télécoms à Madrid. Après, j’ai
+                                                immédiatement trouvé du travail comme développeuse java, un peu par
+                                                hasard à vrai dire. Le côté ingénieux et technique du code m’a plu donc
+                                                j’ai continué. C’est très varié, ce qui me permet d’évoluer et ne pas
+                                                faire toujours la même chose. Et c’est fun !
+                                            </p>
+                                            <hr>
+                                            <h3>Tu as quand même quitté le développement quelques années pour être
+                                                cheffe de projet. Pourquoi es-tu redevenue dev ?</h3>
+                                            <p>Au sein de l’entreprise, on se retrouve trop souvent à passer au
+                                                management de projet soit disant pour progresser. Le poste de chef de
+                                                projet m’a été accordé et pendant quelques années je me suis donc
+                                                éloignée de la technique.
+                                            </p>
+                                            <p>
+                                                Je sentais que je perdais des compétences nécessaires pour prendre de
+                                                bonnes décisions. Et puis, je me suis aperçue qu’au quotidien, j’aimais
+                                                coder plus que faire de la gestion de projet. A ce moment là, il y a eu
+                                                aussi le boom de l’agilité, et cela m’a semblé être le mieux à
+                                                long-terme.
+                                            </p>
+                                            <hr>
+                                            <h3>Pourquoi et comment es-tu devenue freelance ?</h3>
+                                            <p>J’avais envie de gérer mon temps et mes priorités mieux. J’ai toujours
+                                                travaillé en CDI pour une SSII, et le freelancing n’était pas au départ
+                                                dans mon horizon. Il se trouve que dans mon entourage j’ai rencontré
+                                                plusieurs freelances qui m’ont expliqué comment ça marchait par rapport
+                                                être salarié en SSII, et j’ai vu clairement que c’était le pari à faire.
+                                            </p>
+                                            <p>Je me suis sentie séduite par le fait de gagner plus, d’être maître de
+                                                mon temps et de ma carrière. J’ai fait confiance à mon entourage sur
+                                                l’absence de risques pour mon profil et j’ai démissionné pendant mon
+                                                2ème congé maternité (mon 2ème enfant est né en Mai 2016). A la rentrée
+                                                2016 je n’avais ni mission ni CDI !
+                                            </p>
+                                            <p>Pourtant, à partir du moment où je me suis lancée sérieusement dans une
+                                                recherche de mission, il ne m’a fallu que 2 semaines pour trouver le
+                                                client chez qui je suis toujours actuellement. Comme quoi, à Paris ce
+                                                n’est pas très risqué de se lancer, même avec deux jeunes enfants.
+                                            </p>
+                                            <hr>
+                                            <h3 class="text-warning">Laissez un commentaire</h3>
+                                            <p class="text-muted">Votre adresse e-mail ne sera pas publiée. Les champs
+                                                obligatoires sont indiqués avec *</p>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                    rows="3"></textarea>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label"></label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                    placeholder="nom@example.com">
+                                            </div>
+                                            <button type="submit" class="btn btn-warning mb-3 text-light">Poster un
+                                                commentaire</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="m-3 text-muted text-md-start text-center">Par Alexendra Pasquier</p>
+                            </div>
+
+                        </div>
+                </article>
+
+                <!--Article 3-->
+                <article>
+                    <div
+                        class="row g-0 border overflow-hidden flex-md-row mb-5 shadow-sm h-md-250 position-relative bg-white blog-post">
+                        <div class="col p-5 d-flex flex-column position-static">
+                            <img src="/images/Laurine-saunet.svg" class="img-fluid mx-auto blog-post-img"
+                                alt="portrait d'une femme blonde">
+                            <div class="blog-post-icons mx-auto">
+                                <div class="d-flex ">
+                                    <span class="px-2 text-warning"><i class="fas fa-calendar-alt"></i></span>
+                                    <p class="text-muted fs-6 pe-4">25/10/2021</p>
+                                </div>
+                                <div class="d-flex mx-auto">
+                                    <span class="px-2 text-warning "><i class="fas fa-eye"></i></span>
+                                    <p class="text-muted fs-6 pe-4">351</p>
+                                </div>
+                                <div class="d-flex mx-auto">
+                                    <span class="px-2 text-warning"><i class="fas fa-clock"></i></span>
+                                    <p class="text-muted fs-6 pe-4">6 min</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-8 px-2">
+                            <h2 class="m-3 text-warning text-md-start text-center">A la rencontre de Laurine, Data
+                                Scientist dans le domaine de la santé</h2>
+                            <div class="m-3 text-md-start text-center">
+                                <p>Nous vous présentions, il y a peu une série des femmes qui n’officient ni dans le web
+                                    ni dans le mobile.
+                                </p>
+                                <p>Pour continuer cette série, nous vous présentons aujourd’hui Laurine Saunet.
+                                    Laurine est Data Scientist qui travaille sur un produit pour faciliter la detection
+                                    des crises d’épilepsie.
+                                </p>
+                                <p>Je l’ai rencontré dans une école d’ingénieurs où j’enseignais il y a un peu plus de 3
+                                    ans. Nous avons gardé le contact. Nous prenons plaisir à échanger de temps en temps
+                                    notamment sur le fait d’être une femme dans un milieu Tech , sur la collapsologie ou
+                                    encore sur la quête de sens dans son travail.
+                                </p>
+                            </div>
+
+
+
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed text-warning" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                            aria-expanded="false" aria-controls="flush-collapseThree">
+                                            Lire la suite
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <h3>Bonjour Laurine, peux-tu te présenter ?</h3>
+                                            <p>
+                                                Je suis Laurine et je passe la plupart de mon temps à travailler comme
+                                                data scientist dans le domaine de la santé. J’ai une formation
+                                                d’ingénieur (Mines de Saint-Etienne) data science appliqué au
+                                                biomédical. Vers la fin de mes études je me suis spécialisée en
+                                                neurosciences computationnelles. Maintenant je travaille dans une
+                                                start-up en Italie, Empatica.
+                                            </p>
+                                            <hr>
+                                            <h3>Qu’est-ce qui t’intéresse dans le fait de travailler dans le domaine de
+                                                la data science?</h3>
+                                            <p>Ce que j’adore dans ce métier c’est le côté recherche/exploration. Tu
+                                                travailles avec de grosses bases de données et tu essayes de répondre à
+                                                des questions précises (quel est le lien entre sommeil et fréquence de
+                                                crises d’épilepsie? comment mesurer le plus simplement la fidélité des
+                                                utilisateurs? …).
+                                            </p>
+                                            <p>
+                                                LC’est un véritable travail d’exploration qui requiert une approche
+                                                scientifique et un esprit critique. Ce qui est aussi très important pour
+                                                moi, c’est de savoir que mon travail a potentiellement un impact positif
+                                                dans la vie des patients.
+                                            </p>
+                                            <hr>
+                                            <h3>Quels sont les challenges auxquels tu te confrontes ?</h3>
+                                            <p>Je pense que mes défis ne sont presque jamais techniques mais
+                                                organisationnels et relationnels. Lorsque l’on fait de la recherche, on
+                                                peut explorer certains sujets indéfiniment sans jamais arriver à un
+                                                produit viable. Il est assez difficile de prendre en compte toutes les
+                                                contraintes : objectifs de l’entreprise, contraintes
+                                                techniques/financières, besoin des patients, pour finir avec un produit
+                                                qui a du sens pour tout le monde.
+                                            </p>
+                                            <p>
+                                                Un autre challenge, c’est que j’évolue dans un milieu assez compétitif
+                                                où tout le monde a toujours été la/le meilleur dans son milieu et il
+                                                faut avoir de bonnes ressources personnelles pour s’y faire sa place.
+                                                Mais c’est quelque chose que j’ai choisi et que j’adore car c’est
+                                                extrêmement stimulant.
+                                            </p>
+                                            <hr>
+                                            <h3>Si tu avais une baguette magique, qu’est-ce que tu changerais dans ton
+                                                quotidien, ton environnement Tech ?</h3>
+                                            <p>Si je pouvais changer quelque chose dans mon quotidien professionnel, je
+                                                passerais plus de temps en contact avec les patients épileptiques.
+                                                J’aimerais rencontrer, échanger et travailler avec des épileptiques et
+                                                des soignants pour délivrer des produits plus pertinents qui répondent
+                                                aux problèmes des patients, pas aux problèmes que s’imaginent les
+                                                ingénieurs.
+                                            </p>
+                                            <p>
+                                                En ce qui concerne le monde de la tech, je trouve que l’on manque de
+                                                transparence sur les sources des données, les algorithmes et leurs
+                                                utilisations. Ca serait formidable qu’il y ait des fiches produits pour
+                                                toutes les plateformes qui utilisent les données personnelles, qui
+                                                expliqueraient de manière transparente les algorithmes de
+                                                personnalisation.
+                                            </p>
+                                            <hr>
+                                            <h3 class="text-warning">Laissez un commentaire</h3>
+                                            <p class="text-muted">Votre adresse e-mail ne sera pas publiée. Les champs
+                                                obligatoires sont indiqués avec *</p>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                    rows="3"></textarea>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label"></label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                    placeholder="nom@example.com">
+                                            </div>
+                                            <button type="submit" class="btn btn-warning mb-3 text-light">Poster un
+                                                commentaire</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="m-3 text-muted text-md-start text-center">Par Pauline Bauer</p>
+                            </div>
+                        </div>
+                </article>
+
+                <!--Article 4-->
+                <article>
+                    <div
+                        class="row g-0 border overflow-hidden flex-md-row mb-5 shadow-sm h-md-250 position-relative bg-white blog-post">
+                        <div class="col p-5 d-flex flex-column position-static">
+                            <img src="/images/Leila-denier.svg" class="img-fluid mx-auto blog-post-img"
+                                alt="portrait d'une femme blonde">
+                            <div class="blog-post-icons mx-auto">
+                                <div class="d-flex ">
+                                    <span class="px-2 text-warning"><i class="fas fa-calendar-alt"></i></span>
+                                    <p class="text-muted fs-6 pe-4">27/11/2021</p>
+                                </div>
+                                <div class="d-flex mx-auto">
+                                    <span class="px-2 text-warning "><i class="fas fa-eye"></i></span>
+                                    <p class="text-muted fs-6 pe-4">321</p>
+                                </div>
+                                <div class="d-flex mx-auto">
+                                    <span class="px-2 text-warning"><i class="fas fa-clock"></i></span>
+                                    <p class="text-muted fs-6 pe-4">3 min</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-8 px-2">
+                            <h2 class="m-3 text-warning text-md-start text-center">Laïla Denier, tech lead chez
+                                madmoiZelle</h2>
+                            <div class="m-3 text-md-start text-center">
+                                <p>Women in tech est née de la communauté des javaistes, mais nous sommes avant tout une
+                                    communauté des femmes techniques
+                                </p>
+                                <p>Dans ce cadre là, parmi nos membres nous avons des développeuses et tech leads dans
+                                    le web, et l’an dernier lors de notre anniversaire nous avons rencontrée Laïla
+                                    (49 ans), qui est aujourd’hui tech lead chez <a
+                                        href="https://www.madmoizelle.com/">madmoiZelle </a>!
+                                </p>
+                                <p> Voici une rencontre inspirante avec cette femme remplie d’énergie !…
+                                </p>
+                            </div>
+
+
+
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingFour">
+                                        <button class="accordion-button collapsed text-warning" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                            aria-expanded="false" aria-controls="flush-collapseFour">
+                                            Lire la suite
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <h3>Bonjour Laïla, peux tu te présenter en quelques lignes ?</h3>
+                                            <p>
+                                                Je m’appelle Laïla, j’ai 49 ans. Je me suis orientée vers un DUT
+                                                Informatique à l’IUT Paris Descartes. J’ai ensuite intégré l’UTC en
+                                                branche en Génie Informatique à Compiègne pendant deux ans puis j’ai
+                                                passé la dernière année aux Etats-Unis.
+                                            </p>
+                                            <p>Intéressée par le e-commerce après un stage chez Priceminister, j’ai
+                                                décidé de faire une maîtrise en Commerce Électronique (équivalent d’un
+                                                mastère spécialisé) à l’Université de Sherbrooke au Québec.
+                                            </p>
+                                            <hr>
+                                            <h3>Comment es-tu tombée dans la tech ?</h3>
+                                            <p>C’est une histoire dont je suis fière mais c’est en même temps un peu
+                                                gênant à raconter! Je suis tombée dans le développement web à 13 ans.
+                                            </p>
+                                            <p>
+                                                J’étais très fan d'une série télévisé et avais décidé de faire un site
+                                                pour parler de l’actu de ma série préférée. J’étais peu satisfaite des
+                                                éditeurs de site de l’époque (Voilà, Multimania, Skyblog) et ai décidé
+                                                d’apprendre le XHTML puis le CSS pour avoir un beau site. Je faisais
+                                                même de la manipulation d’images avec Paint Shop Pro et utilisais
+                                                Coppermine pour créer des galeries (qui à ma surprise existe toujours!).
+                                            </p>
+                                            <hr>
+                                            <h3>Quels sont les outils que tu utilises au quotidien ?</h3>
+                                            <p>Avant, j’aurais dit PHPStorm pour la puissance de la navigation à travers
+                                                les fonctions et entre les classes avec Ctrl+Clic mais je tombe petit à
+                                                petit amoureuse de Visual Studio Code pour sa fluidité. Je suis aussi
+                                                accro à iTerm2 sur Mac (ou Terminator sur Linux) qui permet de splitter
+                                                un terminal en plusieurs terminaux. Je le divise en 4 écrans:
+                                            </p>
+                                            <ul>
+                                                <li>Un pour voir mes logs d’application</li>
+                                                <li>Un pour me mettre sur mon serveur de déploiement</li>
+                                                <li>Un sur mon dossier d’application pour pouvoir committer rapidement
+                                                </li>
+                                                <li>Un avec <a href="https://github.com/notwaldorf/tiny-care-terminal"
+                                                        target="_blank">tiny-care-terminal</a> parce qu’il me fait
+                                                    penser à boire de l’eau dans la journée 😀 >
+                                                </li>
+                                            </ul>
+                                            <p>
+                                                Côté organisation, je ne peux pas vivre sans Trello et un timer
+                                                Pomodoro. Ca m’aide vraiment à me concentrer. J’essaie d’améliorer ma
+                                                concentration en méditant au moins une fois par jour avec Petit Bambou.
+                                            </p>
+                                            <hr>
+                                            <h3>Une journée parfaite type de Laïla ?</h3>
+                                            <p>Une journée où je finis des tâches ! Ca peut sembler étrange mais plus je
+                                                finis des choses et les livre en production, plus je suis heureuse.
+                                            </p>
+                                            <p>J’aime aussi apprendre d’autres êtres humains en allant à des meetups
+                                                techniques après le travail. J’en découvre beaucoup via Meetup.com,
+                                                c’est un moyen très efficace de faire de la veille tout en rencontrant
+                                                de nouvelles personnes !
+                                            </p>
+                                            <hr>
+                                            <h3 class="text-warning">Laissez un commentaire</h3>
+                                            <p class="text-muted">Votre adresse e-mail ne sera pas publiée. Les champs
+                                                obligatoires sont indiqués avec *</p>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                    rows="3"></textarea>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label"></label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                    placeholder="nom@example.com">
+                                            </div>
+                                            <button type="submit" class="btn btn-warning mb-3 text-light">Poster un
+                                                commentaire</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="m-3 text-muted text-md-start text-center">Par Iorgua Munoz</p>
+                            </div>
+
+                        </div>
+                </article>
+            </div>
+
+            <aside class="col-lg-4">
+
+
+                <div>
+
+                    <!--Blog info-->
+                    <div class="p-4 mb-3 bg-white blog-post">
+                        <h4 class="text-warning text-center text-uppercase">Le Blog</h4>
+                        <p class="mb-0 text-center">
+                            Le blog Women in tech est un blog collaboratif. Il regroupe des articles techniques,
+                            interviews, critique de bouquins.
+                        </p>
+                        <br>
+                        <p class="mb-0 text-center">Nous en profitons d’ailleurs pour remercier toutes nos
+                            contributrices et
+                            suivez-nous sur
+                            les réseaux!!
+                        </p>
+                        <div class="container p-0 my-3 d-flex f-row justify-content-center align-items-center">
+                            <ul class=" nav justify-content-center list-unstyled d-flex">
+                                <li class="nav-item">
+                                    <a href="https://fr-fr.facebook.com/" target="_blank" class="nav-link text-warning">
+                                        <span><i class="fab fa-facebook-f"></i></span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://twitter.com/?lang=fr" target="_blank"
+                                        class="nav-link text-warning">
+                                        <span><i class="fab fa-twitter"></i></span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://www.instagram.com/?hl=fr" target="_blank"
+                                        class="nav-link text-warning">
+                                        <span><i class="fab fa-instagram"></i></span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://github.com/" target="_blank" class="nav-link text-warning">
+                                        <span><i class="fab fa-github"></i></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <!--Blog Archives-->
+                    <div class="p-4 mb-3 bg-white blog-post">
+                        <h4 class="text-warning text-center text-uppercase">Archives</h4>
+
+                        <ul class="mb-0 list-unstyled text-center">
+                            <li><a href="#" target="_blank">Janvier 2021</a></li>
+                            <li><a href="#" target="_blank">Février 2021</a></li>
+                            <li><a href="#" target="_blank">Mars 2021</a></li>
+                            <li><a href="#" target="_blank">Avril 2021</a></li>
+                            <li><a href="#" target="_blank">Mai 2021</a></li>
+                            <li><a href="#" target="_blank">Juin 2021</a></li>
+                            <li><a href="#" target="_blank">Juillet 2021</a></li>
+                            <li><a href="#" target="_blank">Août 2021</a></li>
+                            <li><a href="#" target="_blank">Septembre 2021</a></li>
+                        </ul>
+                    </div>
+
+                    <!--Blog Contributors-->
+                    <div class="p-4 mb-3 bg-white blog-post">
+                        <h4 class="text-warning text-center text-uppercase">Nos contributrices</h4>
+                        <div>
+                            <img src="/images/Angelique-pinot.svg" class="" alt="">
+                            <p class="text-center"><span class="text-warning text-uppercase"> Angélique Pinot</span> est
+                                une WIT, et fait partie de l'équipe
+                                fondatrice et organisatrice de la conférence Mix-IT!
+                            </p>
+                            <p class="text-center">Suivez-là sur <a href="https://twitter.com/?lang=fr"
+                                    target="_blank">Twitter</a></p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </aside>
+
+        </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-primary">
-
-        <!--footer social banner-->
-        <div class="footer-social bg-warning">
-            <div class="container">
-                <div class="row py-4 d-flex align-items-center">
-                    <div class="col-md-6 col-lg-5 text-center text-white text-md-left mb-4 mb-md-0">
-                        <h6 class="mb-0">Suivez-nous sur les réseaux sociaux !</h6>
-                    </div>
-                    <ul class="nav col-md-6 col-lg-7 justify-content-center list-unstyled d-flex">
-                        <li class="nav-item">
-                            <a href="https://fr-fr.facebook.com/" target="_blank" class="nav-link text-white">
-                                <span><i class="fab fa-facebook-f"></i></span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://twitter.com/?lang=fr" target="_blank" class="nav-link text-white">
-                                <span><i class="fab fa-twitter"></i></span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://www.instagram.com/?hl=fr" target="_blank" class="nav-link text-white">
-                                <span><i class="fab fa-instagram"></i></span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://github.com/" target="_blank" class="nav-link text-white">
-                                <span><i class="fab fa-github"></i></span>
-                            </a>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-        </div>
-
-
-        <div class="container text-center text-md-left mt-5">
-            <div class="row mt-3 text-light">
-                <!--footer Company recap-->
-                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
-                    <h6 class="text-uppercase fw-bold text-warning">Women In Tech</h6>
-                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>
-                        Nous avons pour mission d’accompagner les femmes <br> qui démarrent
-                        une carrière technique dans l’informatique à travers notre action <br> de marrainage
-                        <span class="text-warning">#SupportAWit</span> démarrée fin 2015.
-                    </p>
-                </div>
-                <!--footer pages recap-->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase fw-bold">pages</h6>
-                    <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>
-                        <a class="text-white" href="#">Accueil</a>
-                    </p>
-                    <p>
-                        <a class="text-white" href="#mission">Notre Mission</a>
-                    </p>
-                    <p>
-                        <a class="text-white" href="#">Blog</a>
-                    </p>
-                    <p>
-                        <a class="text-white" href="#agenda">Agenda</a>
-                    </p>
-                    <p>
-                        <a class="text-white" href="#">Marrainage</a>
-                    </p>
-                    <p>
-                        <a class="text-white" href="#contact">Contact</a>
-                    </p>
-                </div>
-                <!--footer useful links-->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase fw-bold">Liens utiles</h6>
-                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>
-                        <a class="dark-grey-text" href="#!">Your Account</a>
-                    </p>
-                    <p>
-                        <a class="dark-grey-text" href="#!">Become an Affiliate</a>
-                    </p>
-                    <p>
-                        <a class="dark-grey-text" href="#!">Shipping Rates</a>
-                    </p>
-                    <p>
-                        <a class="dark-grey-text" href="#!">Help</a>
-                    </p>
-                </div>
-                <!--footer contact-->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                    <h6 class="text-uppercase fw-bold" id="contact">Contact</h6>
-                    <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p><i class="fas fa-home mr-3 text-white"></i> FRANCE</p>
-                    <p><i class="fas fa-envelope mr-3 text-white"></i> info@wit.com</p>
-                    <p><i class="fas fa-phone mr-3 text-white"></i> + 1 23 45 67 88</p>
-                    <p><i class="fas fa-print mr-3 text-white"></i> + 1 23 45 67 89</p>
-                </div>
-            </div>
-        </div>
-        <div class="text-center text-light py-3">© 2021 Copyright:
-            <a class="text-white" href="#">Anghyy</a>
-        </div>
-    </footer>
 
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
