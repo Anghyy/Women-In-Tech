@@ -1,7 +1,7 @@
 @use '../custom' as *;
 
 .newsletter {
-    background-color: rgba(240, 47, 56,0.7);
+    background-color: rgb(240, 47, 56);
 
     &-inner{
     @include media-breakpoint-up(sm) {
