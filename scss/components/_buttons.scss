@@ -1,5 +1,6 @@
 @use '../custom' as *;
 
+
 .btn-cta {
     width: 160px;
     height: 45px;
@@ -7,38 +8,16 @@
     cursor: pointer;
     border: none;
     outline: none;
-    background: transparent;
-    color: $pink;
+    background: $dark-green;
+    color: $white;
     font-weight: 700;
-    position: relative;
-    transition: all 0.5s;
-    z-index: 1;
 
-    &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 5px;
-        height: 100%;
-        background-color: $pink;
-        z-index: -1;
-        transition: all 0.5s;
+        :hover {
+            background: $warning;
+            color: $dark-green;
+        }
     }
 
-    &:hover::before {
-        width: 100%;
-    }
-
-    &:hover {
-        color: $white;
-    }
-
-    &:active:before {
-        background: $eggshell;
-    }
-
-}
 
 .btn-blog {
     width: 145px;
