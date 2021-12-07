@@ -1,0 +1,10 @@
+@use '../custom' as *;
+
+
+.circle {
+    border-radius: 50px;
+    height: 75px;
+    width: 75px;
+    background-color: $warning;
+}
+
