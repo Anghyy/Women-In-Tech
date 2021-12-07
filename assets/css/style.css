@@ -11155,40 +11155,33 @@ textarea.form-control-lg {
   background-size: cover;
   max-width: 100%;
   height: 72vh;
-  /*display bg rgba for contrast purposes*/
   /*displays smaller font size*/
 }
+@media (min-width: 576px) {
+  .hero {
+    height: 76vh;
+  }
+}
+@media (min-width: 1200px) {
+  .hero {
+    height: 81vh;
+  }
+}
 .hero .container-box {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   height: 100%;
+  /*display bg rgba for contrast purposes*/
 }
 @media (max-width: 767.98px) {
   .hero .container-box {
     background-color: rgba(255, 255, 255, 0.3);
-    height: 38.4375rem;
+    height: 100%;
   }
 }
 @media (min-width: 576px) {
   .hero h1 {
     font-size: calc(1.525rem + 2.3vw);
-  }
-}
-@media (max-width: 1199.98px) {
-  .hero .btn-cta {
-    width: 160px;
-    height: 45px;
-    font-size: 23px;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: #2A2B2A;
-    color: #ffffff;
-    font-weight: 700;
-  }
-  .hero .btn-cta :hover {
-    background-color: #f02f38;
-    color: #2A2B2A;
   }
 }
 
@@ -11246,8 +11239,8 @@ textarea.form-control-lg {
 }
 
 .mission {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 .mission .scale:hover {
   transform: scale(1.05);
@@ -11268,9 +11261,16 @@ textarea.form-control-lg {
   z-index: 1;
 }
 
+.circle {
+  border-radius: 50px;
+  height: 75px;
+  width: 75px;
+  background-color: #f02f38;
+}
+
 .btn-cta {
-  width: 160px;
-  height: 45px;
+  width: 200px;
+  height: 50px;
   font-size: 23px;
   cursor: pointer;
   border: none;
@@ -11279,9 +11279,8 @@ textarea.form-control-lg {
   color: #ffffff;
   font-weight: 700;
 }
-.btn-cta :hover {
+.btn-cta:hover {
   background: #f02f38;
-  color: #2A2B2A;
 }
 
 .btn-blog {
