@@ -3,26 +3,4 @@
 .mission {
     padding-top: 6rem;
     padding-bottom: 6rem;
-
-
-    .scale:hover{
-        transform: scale(1.05); 
-        transition: all 300ms ease-in-out;
-    }
-    
-    .top-badge{
-        width: 200px;
-        height: 60px;
-        background-color: $white;
-        border-radius: 15px;
-        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);  
-        z-index: 2;
-    }
-
-    .custom-card {
-        border: 1px solid $white;
-        border-radius: 15px;
-        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);  
-        z-index: 1;
-    }
 }

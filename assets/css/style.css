@@ -11242,24 +11242,6 @@ textarea.form-control-lg {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
-.mission .scale:hover {
-  transform: scale(1.05);
-  transition: all 300ms ease-in-out;
-}
-.mission .top-badge {
-  width: 200px;
-  height: 60px;
-  background-color: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-  z-index: 2;
-}
-.mission .custom-card {
-  border: 1px solid #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
 
 .circle {
   border-radius: 50px;
