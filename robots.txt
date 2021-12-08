@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /node_modules/
+Disallow: /assets/
+Disallow: /scss/
+
+User-agent: *
+Allow: /
+
