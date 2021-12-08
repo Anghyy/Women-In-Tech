@@ -11148,7 +11148,7 @@ textarea.form-control-lg {
 }
 
 .hero {
-  background-image: url("/images/hero.jpg");
+  background-image: url("./images/hero.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
