@@ -6,5 +6,5 @@ Disallow: /scss/
 User-agent: *
 Allow: /
 
-Sitemap: http://infallible-bardeen-291fd6.netlify.app/sitemap.xml
+Sitemap: https://infallible-bardeen-291fd6.netlify.app/sitemap.xml
 
